@@ -9,6 +9,7 @@ import { FaRegNewspaper } from "react-icons/fa6";
 import { SiCashapp } from "react-icons/si";
 import { MdReportProblem } from "react-icons/md";
 import { CiSettings } from "react-icons/ci";
+import { RxDashboard } from "react-icons/rx";
 const Sidebar = () => {
   const [openSections, setOpenSections] = useState({
     adminDetails: false,
@@ -29,7 +30,7 @@ const Sidebar = () => {
   return (
     <div style={{ width: '250px', backgroundColor: '#8B6914', height: '100vh', padding: '20px', color: 'white', position: 'fixed' }}>
       <div style={{ marginBottom: '30px' }}>
-        <h2>Dashboard</h2>
+        <h2 > <RxDashboard style={{marginRight:"15%"}}/>Dashboard</h2>
       </div>
       <ul style={{ listStyleType: 'none', padding: '0' }}>
         <li>
